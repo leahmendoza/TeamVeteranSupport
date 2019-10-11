@@ -1,0 +1,47 @@
+.searchVA {
+    text-align: center;
+    align-content: center;
+}
+
+.searchWelcome {
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.screen {
+    /* The image used */
+    background-image: url("afghanav.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    margin-top: 1px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #000;
+    color: white;
+}
+
+#map {
+    text-align: center;
+    align-content: center;
+    padding: 0px;
+    border: solid;
+}
+
+agm-map {
+    height: 600px;
+}
